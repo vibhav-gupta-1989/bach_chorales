@@ -1,6 +1,6 @@
 # Bach Chorale Note Prediction (GRU)
 
-A PyTorch project that trains a GRU-based recurrent neural network on the [JSB Chorales dataset](https://github.com/czhuang/JSB-Chorales-dataset) to predict the next set of notes in a Bach chorale, and uses the trained model to autoregressively generate new, Bach-like note sequences.
+A PyTorch project that trains a GRU-based recurrent neural network on the JSB Chorales dataset to predict the next set of notes in a Bach chorale, and uses the trained model to autoregressively generate new, Bach-like note sequences.
 
 ## Overview
 
@@ -33,7 +33,7 @@ pip install torch torchmetrics pandas numpy
 
 ## Data
 
-Download the [JSB Chorales dataset](https://github.com/czhuang/JSB-Chorales-dataset) and place it so the following paths exist relative to the notebook:
+Download the JSB Chorales dataset and place it so the following paths exist relative to the notebook:
 
 ```
 jsb_chorales/jsb_chorales/train/*.csv
